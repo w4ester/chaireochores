@@ -2,7 +2,7 @@
 
 ## Overview
 
-Chairo Chores is an interactive and fun laundry basket hoop game designed for kids. The game requires children to select and complete a chore before they can start playing. The game is responsive and includes features such as a recording announcement, difficulty settings, and a timer with a halfway warning.
+Chairo Chores is an interactive and (will be ) fun laundry basket hoop game designed for kids. The game requires children to select and complete a chore before they can start playing. The game is responsive and includes features such as a recording announcement, difficulty settings, and a timer with a halfway warning.
 
 ## Features
 
@@ -35,3 +35,23 @@ Chairo Chores is an interactive and fun laundry basket hoop game designed for ki
    ```bash
    git clone https://github.com/w4ester/chaireochores.git
    cd chaireochores
+
+
+
+### Our Commitment
+
+### Data Ownership
+
+We believe that data ownership is a fundamental right. Our applications are designed to function without collecting or selling your data. You can use our tools with confidence, knowing that your data stays on your device.
+
+### Accessibility and Usability
+
+Our tools are developed to be accessible and user-friendly for people of all ages. We aim to create an inclusive environment where everyone can benefit from our technology.
+
+### Hyper-Local Ecosystem
+
+We are focused on building a hyper-local ecosystem that empowers families. Each app is affordably priced at $2, ensuring accessibility without compromising on quality or privacy.
+
+### Join the Movement
+
+Welcome to the era of digital partnerships with Chaireo Inc. We are dedicated to creating tools that respect your data ownership always and in all ways. Together, we can build a connected, responsible, and accountable future for families.
