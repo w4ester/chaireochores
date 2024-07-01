@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Basket Hoop Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="chores-setup" class="chores-setup">
+        <h2>Set a Chore Before Starting the Game</h2>
+        <p>Select one chore that needs to be completed before playing:</p>
+        <div>
+            <input type="radio" id="chore-dishes" name="chores" value="Do the dishes">
+            <label for="chore-dishes">Do the dishes</label><br>
+            <input type="radio" id="chore-room" name="chores" value="Clean your room">
+            <label for="chore-room">Clean your room</label><br>
+            <input type="radio" id="chore-table" name="chores" value="Help set the table">
+            <label for="chore-table">Help set the table</label><br>
+            <input type="radio" id="chore-other" name="chores" value="Write your own chore">
+            <label for="chore-other">Write your own chore</label>
+            <input type="text" id="custom-chore-setup" placeholder="Enter your chore" style="display: none;">
+        </div>
+        <button id="save-chores">Save Chores and Start Game</button>
+    </div>
+    
+    <div id="game-setup" style="display: none;">
+        <div class="instructions">
+            <h1>Laundry Basket Hoop Game</h1>
+            <p>Use the arrow keys to move the clothes left and right.</p>
+            <p>Press the spacebar to shoot the clothes into the basket.</p>
+            <p>Press keys 1 to 10 to set the difficulty level (1 being the slowest and 10 being the fastest).</p>
+            <p>Press 'P' to pause or resume the game.</p>
+            <p>Parents/Guardians can set a timer for the game:</p>
+            <p>
+                <label for="time-limit">Set Time Limit (minutes):</label>
+                <input type="number" id="time-limit" min="1" max="60" value="5">
+            </p>
+            <p>When the timer runs out, the game will pause and a list of chores will appear. Choose a chore or write your own.</p>
+            <p>You can record an announcement by clicking "Start Recording" and stop it by clicking "Stop Recording". The recording will be played back when you score a point.</p>
+        </div>
+        <div class="game-container">
+            <div class="laundry-basket" id="basket"></div>
+            <div class="clothes" id="clothes"></div>
+            <div class="score" id="score">Score: 0</div>
+        </div>
+        <div class="controls">
+            <button id="start-game">Start Game</button>
+            <button id="pause-game">Pause Game</button>
+            <button id="start-recording">Start Recording</button>
+            <button id="stop-recording" disabled>Stop Recording</button>
+            <audio id="announcer" controls></audio>
+        </div>
+    </div>
+    
+    <div id="chores-modal" class="modal">
+        <div class="modal-content">
+            <h2>Time's up! Choose a chore:</h2>
+            <button class="chore-choice">Do the dishes</button>
+            <button class="chore-choice">Clean your room</button>
+            <button class="chore-choice">Help set the table</button>
+            <button class="chore-choice">Write your own chore</button>
+            <input type="text" id="custom-chore" placeholder="Enter your chore">
+            <button id="select-chore">Select Chore</button>
+        </div>
+    </div>
+
+    <div id="reminder-modal" class="modal">
+        <div class="modal-content">
+            <h2>Reminder!</h2>
+            <p id="reminder-text"></p>
+            <button id="close-reminder">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
