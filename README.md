@@ -54,4 +54,4 @@ We are focused on building a hyper-local ecosystem that empowers families. Each 
 
 ### Join the Movement
 
-Welcome to the era of digital partnerships with Chaireo Inc. We are dedicated to creating tools that respect your data ownership always and in all ways. Together, we can build a connected, responsible, and accountable future for families.
+Welcome to the era of digital partnerships with Chaireo Inc. We are dedicated to creating tools that respect your data ownership always and in all ways. Together, we can build a connected, responsible, and accountable partnership that is not a majority mindset or design (...yet).
