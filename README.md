@@ -1,4 +1,4 @@
-# Chairo Chores - Laundry Basket Hoop Game
+# Chaireo Chores - Laundry Basket Hoop Game
 
 ## Overview
 
