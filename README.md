@@ -6,7 +6,7 @@ Chairo Chores is an interactive and fun laundry basket hoop game designed for ki
 
 ## Features
 
-- **Chore Selection**: Parents can select one chore that needs to be completed before the game starts.
+- **Chore Selection**: Caregivers can select one chore that needs to be completed before the game starts.
 - **Responsive Design**: The game adjusts to different screen sizes for a better user experience.
 - **Recording Announcement**: Record and play announcements that are played back when a point is scored.
 - **Difficulty Settings**: Adjust the difficulty level from 1 to 10.
