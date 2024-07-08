@@ -1,4 +1,4 @@
-# Chaireo Chores - Laundry Basket Hoop Game
+# Chaireo Chores - Games for Life - beta - Laundry Basket Hoop Game
 
 ## Overview
 
